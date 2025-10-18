@@ -1,0 +1,9 @@
+# rules.mk for qrsplit
+
+USB_POLLING_INTERVAL_MS = 0.125
+SERIAL_DRIVER = vendor
+BOARD = GENERIC_RP_RP2040
+EEPROM_DRIVER = wear_leveling
+WEAR_LEVELING_DRIVER = rp2040_flash
+RGBLIGHT_ENABLE = yes
+WS2812_DRIVER = vendor
