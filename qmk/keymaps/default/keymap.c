@@ -96,13 +96,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             ┌───┬───┬───┬───┬───┬───┐                    ┌───┬───┬───┬───┬───┬───┬───┬───┐
             │na │F1 │F2 │F3 │F4 │F5 │                    │F6 │F7 │F8 │F9 │F10│F11│F12│na │
             ├───┼───┼───┼───┼───┼───┤                    ├───┼───┼───┼───┼───┼───┼───┼───┤
-            │na │na │na │na │na │na │                    │ 7 │ 8 │ 9 │na │na │V+ │V- │POS│
+            │na │na │na │na │na │na │                    │ 7 │ 8 │ 9 │ * │ / │V+ │V- │POS│
             ├───┼───┼───┼───┼───┼───┤                    ├───┼───┼───┼───┼───┼───┼───┼───┤
-            │MO2│na │na │na │na │na │                    │ 4 │ 5 │ 6 │na │BBK│BFW│na │
+            │MO2│na │na │na │na │na │                    │ 4 │ 5 │ 6 │ - │BBK│BFW│na │
             ├───┼───┼───┼───┼───┼───┼                    ┼───┼───┼───┼───┼───┼───┼───┤
-            │na │na │na │na │na │na │                    │ 1 │ 2 │ 3 │na │ctl│sft│na │
+            │na │na │na │na │na │na │                    │ 1 │ 2 │ 3 │ + │ctl│sft│na │
             ├───┼───┼───┼───┼───┼───┼                    ┼───┼───┼───┼───┼───┼───┼───┤
-            │na │na │na │na │                            │na │NO │MO2│na │na │na │
+            │na │na │na │na │                            │ 0 │ . │MO2│na │na │na │
             ├───┼───┼───┼───┼                            ┼───┼───┼───┼───┼───┼───┼
 
         */
@@ -113,9 +113,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
             KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
             KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, KC_TRNS,
-            KC_P7, KC_P8, KC_P9, KC_TRNS, KC_TRNS, KC_VOLU, KC_VOLD, KC_MPLY,
-            KC_P4, KC_P5, KC_P6, KC_TRNS, KC_WBAK, KC_WFWD, KC_TRNS,
-            KC_P1, KC_P2, KC_P3, KC_TRNS, KC_RCTL, KC_RSFT, KC_TRNS,
-            KC_NO, KC_SPC, KC_NO, MO(_2), KC_TRNS, KC_TRNS, KC_TRNS
+            KC_P7, KC_P8, KC_P9, KC_PAST, KC_PSLS, KC_VOLU, KC_VOLD, KC_MPLY,
+            KC_P4, KC_P5, KC_P6, KC_PMNS, KC_WBAK, KC_WFWD, KC_TRNS,
+            KC_P1, KC_P2, KC_P3, KC_PPLS, KC_RCTL, KC_RSFT, KC_TRNS,
+            KC_NO, KC_P0, KC_PDOT, MO(_2), KC_TRNS, KC_TRNS, KC_TRNS
         )
 };
