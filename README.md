@@ -1,3 +1,3 @@
 # qrsplit64
-![qrsplit64](https://imgur.com/a/PjuiIPq)
+![qrsplit64](case/qrsplit64.jpg)
  64 keys row staggered split keyboard
